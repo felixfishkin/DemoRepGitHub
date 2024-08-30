@@ -12,7 +12,7 @@ public class Calculator {
 
     }
 
-    int divide(int a, int b) throws DivideOnNullExeption {
+    double divide(double a, double b) throws DivideOnNullExeption {
         if (b==0){
             throw new DivideOnNullExeption("НЕЛЬЗЯ НА 0 ДЕЛИТЬ ЁПТАААА!!!1");
         }

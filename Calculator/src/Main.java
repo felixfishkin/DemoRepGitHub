@@ -10,10 +10,10 @@ public class Main {
         System.out.println(calсulator.multiply(2, 5));
 
         try {
-            System.out.println(calсulator.divide(2,0));
+            System.out.println(calсulator.divide(3,5));
         }catch (DivideOnNullExeption e) {
             System.out.println(e.getMessage());
         }
     }
-   
+
 }
